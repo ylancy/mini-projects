@@ -1,4 +1,4 @@
-const gitHub = 'https://github.com/ylancy/mini-projects';
+const gitHub = 'https://github.com/ylancy/mini-projects/tree/main';
 
 const cardsData = [
     'animated-search-bar',

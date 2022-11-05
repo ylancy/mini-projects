@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Sora:100,200,300,400,500,600,700,800&display=swap);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sora;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 20px 40px;
+    z-index: 1000;
+    font-size: 1.5rem;
+    color: #6f5ad3;
+    background: white;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+header {
+    padding: 100px 0 20px;
+    background-color: #59bb93;
+    text-align: center;
+    font-weight: bold;
+}
+
+header>h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+header>p {
+    font-size: 3rem;
+    color: #ffd96a
+}
+
+.projects>.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.projects>.container>.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #59bb93;
+    padding: 50px 0;
+}
+
+.projects[class *="col"] {
+    padding: 10px;
+}
+
+.projects .card-wrapper {
+    background-color: #fafafa;
+    border: solid 1px #ddd;
+    margin-bottom: 20px;
+}
+
+.projects .card-wrapper h3 {
+    margin: 0rem;
+    height: 48px;
+    text-transform: capitalize;
+}
+
+.projects .card-wrapper .card-content {
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .card-wrapper .card-content>div {
+    align-self: flex-end;
+}
+
+
+.projects img.screenshot {
+    width: 100%;
+}
+
+.projects .card-content a {
+    margin: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.projects .card-content img.icon {
+    transition: all 0.2s;
+    width: 20px;
+}
+
+.projects a:hover img.icon {
+    transform: scale(1.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #6f5ad3;
+    color: white
+}
